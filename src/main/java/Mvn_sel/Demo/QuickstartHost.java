@@ -36,7 +36,9 @@ public class QuickstartHost extends ServiceHost {
     public static void main(String[] args) throws Throwable {
         Arguments defaultArgs = new Arguments();
         defaultArgs.port = 8000;
-        defaultArgs.id = "host" + defaultArgs.port;   // human readable name instead of GUID
+        defaultArgs.port = 8090;
+        defaultArgs.port = 8080;
+        .id = "host" + defaultArgs.port;   // human readable name instead of GUID
         defaultArgs.sandbox = Paths.get("/tmp/xenondb");
         startHost(args, defaultArgs);
     }
