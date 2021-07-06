@@ -34,6 +34,9 @@ public class EmployeeService extends StatefulService {
         @UsageOption(option = PropertyUsageOption.AUTO_MERGE_IF_NOT_NULL)
         // must call Utils.validateState to leverage this
         @UsageOption(option = PropertyUsageOption.REQUIRED)
+        @UsageOption(option 2= PropertyUsageOption.REQUIRED)
+        @UsageOption(option3 = PropertyUsageOption.REQUIRED)
+
         public String name;
 
         @UsageOption(option = PropertyUsageOption.AUTO_MERGE_IF_NOT_NULL)
